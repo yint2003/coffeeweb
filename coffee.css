@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* page (1) */
+.page1 {
+    width: 100vw;
+    height: 85vh;
+    background-color: rgb(62, 40, 25);
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin: 10px 20px;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgba(155, 103, 68, 0.8);
+    padding: 15px 30px;
+}
+
+.nav a:hover {
+    color: rgba(82, 42, 15, 1);
+    background-color: #ffffff;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.title h2 {
+    font-family: 'Comic Sans MS';
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.title p {
+    font-family: 'Agency FB';
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+/*##### page (1)##### */
+/* PAGE(2) */
+.page2 {
+    width: 100vw;
+    height: 65vh;
+    background-color: antiquewhite;
+}
+
+.p2body {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.p2body div .img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 40px;
+}
+
+.p2text {
+    margin: 70px;
+}
+
+.p2text h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.p2text h4 {
+    font-size: 25px;
+    margin: 0 0 30px 0;
+}
+
+.p2btn {
+    padding: 8px 45px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.p2btn:hover {
+    color: rgba(0, 0, 0, 0.7);
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+
+/*##### page (2)##### */
+/* PAGE(3) */
+.page3 {
+    width: 100vw;
+    height: 65vh;
+    background-color: rgb(109, 104, 100);
+}
+
+.reviewTitle {
+    text-align: center;
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+.reviewTitle h2 {
+    font-size: 30px;
+}
+
+.reviewTitle p {
+    font-size: 20px;
+}
+
+.reviewCon {
+    display: flex;
+    justify-content: center;
+}
+
+.reviewText {
+    background-color: bisque;
+    width: 300px;
+    height: 130px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+
+.reviewText p {
+    margin: 0 0 20px 0;
+}
+
+/*##### page (3)##### */
+/* PAGE(4) */
+.page4 {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(62, 40, 25);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+/* 1 */
+.footerchild1 {
+    padding: 40px 10px 0 0;
+}
+
+.footerchild1 h3 {
+    font-size: 30px;
+}
+
+.footerchild1 p {
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.footerchild1 input {
+    display: block;
+    margin: 20px 0;
+    padding: 10px 5px;
+}
+
+.footerchild1 .footerMessagebox {
+    padding: 10px 100px 50px 5px;
+}
+
+.footerchild1 button {
+    padding: 10px 35px;
+    background-color: bisque;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footerchild1 button:hover {
+    background-color: #ffffff;
+    transition: 1s;
+}
+
+/* 1 end */
+/* 2 */
+.footerchild2 {
+    padding: 40px 10px 0 30px;
+}
+
+.footerchild2 h3 {
+    font-size: 30px;
+}
+
+.footerchild2 p {
+    letter-spacing: 2px;
+    opacity: 0.8;
+    margin: 0 0 40px 0;
+}
+
+.footerchild2 div a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+/* 2End */
+/* 3 */
+.footerchild3 {
+    padding: 20px 0 0 30px;
+}
+
+.footerchild3 p {
+    letter-spacing: 2px;
+}
+
+/* ------------------------------------------------------------- */
+/* mobile */
+@media (max-width:800px) {
+    .page1 {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav a {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+
+    .nav a:hover {
+        border-radius: 10px;
+    }
+
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .title h2 {
+        font-size: 40px;
+    }
+
+    .title p {
+        font-size: 20px;
+    }
+
+    /* page1 end */
+    .page2 {
+        width: 100vw;
+        height: 90vh;
+        background-color: antiquewhite;
+    }
+
+    .p2body {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .p2body div .img {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px;
+        margin: 30px;
+    }
+
+    .p2text h2 {
+        font-size: 30px;
+    }
+
+    .p2text h4 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* page2 end */
+    .page3 {
+        width: 100vw;
+        height: 80vh;
+        background-color: rgb(109, 104, 100);
+    }
+
+    .reviewTitle {
+        text-align: center;
+        padding: 20px 0;
+        color: #ffffff;
+    }
+
+    .reviewTitle h2 {
+        font-size: 30px;
+    }
+
+    .reviewTitle p {
+        font-size: 20px;
+    }
+
+    .reviewCon {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .reviewText {
+        margin: 10px 20px;
+    }
+
+    .reviewText p {
+        margin: 0 0 20px 0;
+    }
+
+    /* page3 end  */
+    .page4 {
+        width: 100vw;
+        height: 80vh;
+        background-color: rgb(62, 40, 25);
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+/* 1000px */
+@media(max-width:1000px) {
+    .page2 {
+        width: 100vw;
+        height: 90vh;
+        background-color: antiquewhite;
+    }
+
+    .p2body {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    /* page3 */
+    .reviewCon {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .reviewText {
+        margin: 10px 20px;
+    }
+
+}
